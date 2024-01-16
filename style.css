@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+.prevent-select {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    height: 300px;
+    position: relative;
+    border: 3px solid rgb(32, 32, 32);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.plane2d {
+    background-color: rgb(37, 37, 37);
+    border-collapse: collapse;
+}
+
+.inventory {
+    background-color: rgb(37, 37, 37);
+}
+
+td {
+    border: 0px none rgb(32, 32, 32);
+    border-collapse: cover;
+    height: 1pc;
+    width: 1pc;
+    background-size: cover;
+    font-size: smaller;
+    color: white;
+}
+
+.block_looking_at {
+    border: 2px solid rgb(255, 50, 50);
+}
+
+.hotslot {
+    border: 2px solid rgb(50, 50, 50);
+}
+
+.selhotslot {
+    border: 2px solid rgb(255, 50, 50);
+}
+
+.damage1 {
+    opacity: 0.2;
+}
+
+.damage2 {
+    opacity: 0.4;
+}
+
+.damage3 {
+    opacity: 0.6;
+}
+
+.damage4 {
+    opacity: 0.8;
+}
+
+.damage5 {
+    opacity: 1;
+}
